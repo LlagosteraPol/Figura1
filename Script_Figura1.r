@@ -90,7 +90,6 @@ points(ACC$V1,ACC$V2,pch=20,col=rgb(0,0,0,alpha=alpha1),cex=cex_point)
 
 ##Aquí has d'afeguir un rectangle/quadrat al voltant de Lleida (la nostra àrea d'observació, amb un marc negre) per deixar clar quina és l'àrea de treball que apareixerà en la següent finesta (plot(LNnew, etc...)
 
-
 par(mar =0.2+c(3.2, 1.5, 2.2, 2))
 plot(LNnew, main="",axes=FALSE,col="grey")
 axis(1, at=c(minx, minx+(maxx-minx)/5,minx+2*(maxx-minx)/5,minx+3*(maxx-minx)/5,minx+4*(maxx-minx)/5, maxx), 
